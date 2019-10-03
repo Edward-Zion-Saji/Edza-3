@@ -1,0 +1,25 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<!-- basic_chat.aiml -->
+
+    <category>
+        <pattern>WHAT IS YOUR NAME</pattern>
+        <template>
+            You can call me Edza.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT IS YOUR NAME *</pattern>
+        <template>
+          It's Edza.
+        </template>
+    </category>
+        <category>
+        <pattern>WHAT IS YOUR * NAME</pattern>
+        <template>
+          My full name is Edza Talos Zion. <set name="name"><star/></set>
+          You decide what my <get name="name"/> name is.
+        </template>
+    </category>
+
+</aiml>
