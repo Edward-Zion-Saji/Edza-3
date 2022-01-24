@@ -3,3 +3,5 @@ pip install wikipedia --user
 pip install speech_recognition --user
 pip install wolframalpha --user
 pip install -U wxPython --user
+pip install pyaudio --user
+pip install SpeechRecognition --user
