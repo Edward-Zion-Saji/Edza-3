@@ -1,0 +1,5 @@
+pip install pyttsx3 --user
+pip install wikipedia --user
+pip install speech_recognition --user
+pip install wolframalpha --user
+pip install -U wxPython --user
